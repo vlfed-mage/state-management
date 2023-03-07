@@ -12,7 +12,14 @@ const StatusField = ({ onEnter }) => {
 
     const onChangeHandler = e => setMassage(e.target.value);
 
-    return <input type='text' value={massage} onKeyUp={onClickHandler} onChange={onChangeHandler} />;
+    return (
+        <input
+            type='text'
+            value={massage}
+            onKeyUp={onClickHandler}
+            onChange={onChangeHandler}
+        />
+    );
 };
 
 export default StatusField;

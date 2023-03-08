@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom/client';
 // import App from './custom-hooks/building-network-request-hook/app';
 // import App from './custom-hooks/use-storage-hook/app';
 // import App from './custom-hooks/use-storage-hook/app';
-import App from './common-problems-and-other-hooks/infinite-renderer/app';
+// import App from './common-problems-and-other-hooks/infinite-renderer/app';
+import App from './common-problems-and-other-hooks/use-callback/app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

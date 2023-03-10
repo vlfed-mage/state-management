@@ -1,7 +1,7 @@
 import React from 'react';
 import useStorage from '../use-storage';
 
-function App() {
+const App = () => {
     const [count, setCount] = useStorage('count', 0);
     return (
         <div
@@ -12,6 +12,6 @@ function App() {
             The counter is {count}
         </div>
     );
-}
+};
 
 export default App;

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Massages from '../massages';
 import StatusField from '../status-field';
 
-function App() {
+const App = () => {
     const initialMassages = ['test', 'test2'];
     const [massages, setMassages] = useState(initialMassages);
 
@@ -15,6 +15,6 @@ function App() {
             <Massages massages={massages} />
         </div>
     );
-}
+};
 
 export default App;

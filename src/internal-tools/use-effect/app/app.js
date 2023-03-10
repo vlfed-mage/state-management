@@ -2,7 +2,7 @@ import React from 'react';
 
 import useDarkMode from '../hooks';
 
-function App() {
+const App = () => {
     let isDarkMode = useDarkMode();
     return (
         <div
@@ -16,6 +16,6 @@ function App() {
             Here's some content.
         </div>
     );
-}
+};
 
 export default App;

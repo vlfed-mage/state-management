@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import usePicture from '../use-picture';
 
-function App() {
+const App = () => {
     const [date, setDate] = useState('2020-05-05');
     const { picture, loading } = usePicture(date);
 
@@ -17,6 +17,6 @@ function App() {
             <img src={url} alt={title} />
         </div>
     );
-}
+};
 
 export default App;

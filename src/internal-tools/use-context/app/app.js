@@ -3,7 +3,7 @@ import Content from '../content';
 import Sidebar from '../sidebar';
 import { AppProvider } from '../app-context';
 
-function App() {
+const App = () => {
     return (
         <AppProvider>
             <div>
@@ -12,6 +12,6 @@ function App() {
             </div>
         </AppProvider>
     );
-}
+};
 
 export default App;

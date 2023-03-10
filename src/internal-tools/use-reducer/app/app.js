@@ -2,7 +2,7 @@ import React, { useReducer } from 'react';
 
 import reducer from '../reducer';
 
-function App() {
+const App = () => {
     const [state, dispatch] = useReducer(reducer, { counter: 0, username: '' });
 
     return (
@@ -17,6 +17,6 @@ function App() {
             user name is {state.username}
         </div>
     );
-}
+};
 
 export default App;

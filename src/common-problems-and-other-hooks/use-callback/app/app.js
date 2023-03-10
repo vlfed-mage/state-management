@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import useComplete from '../use-complete';
 
-function App() {
+const App = () => {
     const [clicked, setClicked] = useState(false);
 
     // useComplete(data => console.log(data));
@@ -18,6 +18,6 @@ function App() {
             hello! {clicked ? 'clicked' : 'not clicked'}
         </div>
     );
-}
+};
 
 export default App;

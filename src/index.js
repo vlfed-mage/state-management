@@ -11,11 +11,12 @@ import ReactDOM from 'react-dom/client';
 // import App from './custom-hooks/use-storage-hook/app';
 // import App from './common-problems-and-other-hooks/infinite-renderer/app';
 // import App from './common-problems-and-other-hooks/use-callback/app';
-import AppContainer from './external-libraries/recoil/app/app-container';
+// import AppContainer from './external-libraries/recoil/app';
+import App from './external-libraries/xstate/app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <StrictMode>
-        <AppContainer />
+        <App />
     </StrictMode>
 );

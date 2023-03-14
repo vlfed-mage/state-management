@@ -1,5 +1,5 @@
 import React from 'react';
-import useStorage from '../use-storage';
+import { useStorage } from 'servises-hooks'; // import from node-modules after publishing package to npm
 
 const App = () => {
     const [count, setCount] = useStorage('count', 0);
